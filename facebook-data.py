@@ -5,7 +5,7 @@ import pandas as pr
 
 script, filename = argv
 
-access_token = '1850864201834154|xKFUOCe-FWiSH_9lccM7xJMVbc0'
+access_token = '<access-token>'
 user = 'expedia'
 graph = facebook.GraphAPI(access_token)
 profile = graph.get_object(user)
