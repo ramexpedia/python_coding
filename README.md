@@ -1,7 +1,7 @@
 # Python coding challenge
-### Q1
+### Challenge - Q1
 
-Write a script code to be executed from a command line using either python, ruby, PowerShell, or Elixir that extracts returns the text of the last 8 posts made on Expedia Facebook Page, and re-writes such data into a text file using JSON. Be creative on writing the post text and respective date, and justify your decision.
+1) Write a script code to be executed from a command line using either python, ruby, PowerShell, or Elixir that extracts returns the text of the last 8 posts made on Expedia Facebook Page, and re-writes such data into a text file using JSON. Be creative on writing the post text and respective date, and justify your decision.
 #### Solution steps for Q1
 - Step 1 : Install Pre-requisites - facebook, requests, pandas packages
   - Please run 'sudo pip install facebook-sdk','sudo pip install requests','sudo pip install pandas' from terminal
@@ -18,5 +18,10 @@ Write a script code to be executed from a command line using either python, ruby
 - 1) Only 'public' posts are retrieved from API. Posts that have restricted 'public' view are not retrieved from API.
 - 2) 'Be creative on writing' as mentioned in the question is assumed as 'data to be written to an excel file' so that its easy for further analytics.
 - 3) Python version 2.7.10
+
+-------------------------------------------------
   
-### Q2
+### Challenge - Q2
+2) Similarly, write a script code that receives username and password when executed from the command line, authenticates to http://www.Goodreads.com  website, and find, retrieve, and store in a file the top 10 most popular quotes from Mark Twain. Can you also get the top 10 least popular quotes?
+#### Solution steps for Q2
+- Step 1: 
