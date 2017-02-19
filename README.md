@@ -17,5 +17,6 @@ Write a script code to be executed from a command line using either python, ruby
 #### P.S Notes for Q1: 
 - 1) Only 'public' posts are retrieved from API. Posts that have restricted 'public' view are not retrieved from API.
 - 2) 'Be creative on writing' as mentioned in the question is assumed as 'data to be written to an excel file' so that its easy for further analytics.
+- 3) Python version 2.7.10
   
 ### Q2
