@@ -58,6 +58,5 @@ write.write("\n")
 write.write('Least 10 popular quotes' + "\n" + "\n")
 write.write('\n'.join(a[len(a)-10:]))
 write.close()
-
 print("Successful! We got the data in the file you specified")
 print("Execute this command from terminal to read and enjoy Mark_Twain quotes: 'open " + filename + "'")
