@@ -40,3 +40,18 @@
  - 3) All the corrupt data in the output file is due to non-english characters present in the quote data
 
 ----------------------------------------------------------
+
+### Challenge - Q4
+4) Using python language, write a script that scrape a website, download data from 2 or more files containing relational content, and merge their data into a data-frame using “Pandas library” (http://pandas.pydata.org/getpandas.html). Note: data must come from scraping, not from gathering it through APIs.
+#### Solution steps for Q4
+- Step 1: Install Pre-requisites - pandas
+  - Please run 'sudo pip install package_name' from terminal for package installations
+- Step 2: Clone or download 'pandas_ch.py' file
+- Step 3: Run the python file from top-level package. Below is the command:
+  - python pandas_ch.py
+- Step 4: After running the command, please follow the output on console or please follow Step-5
+
+#### P.S Notes for Q4:
+ - 1) Scraped data from http://www.sql-join.com/ website
+ - 2) Customers and Orders tables' data is gathered from the website using Beautiful Soup API
+ - 3) Both the tables are joined using customer_id key in Pandas dataframes
