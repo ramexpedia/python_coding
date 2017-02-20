@@ -14,7 +14,7 @@
 - Step 5: To check the output file from terminal, below is the sample command
   - open filename, For e.g: open /Users/jpulipati/Desktop/python_assignment/text3.xls
 
-#### P.S Notes for Q1: 
+#### P.S Notes for Q1: (Assumptions, explanation)
 - 1) Only 'public' posts are retrieved from API. Posts that have restricted 'public' view are not retrieved from API.
 - 2) 'Be creative on writing' as mentioned in the question is assumed as 'data to be written to an excel file' so that its easy for further analytics.
 - 3) Python version 2.7.10
@@ -34,7 +34,7 @@
 - Step 5: To check the output file from terminal, below is the sample command
   - open filename, For e.g: open /Users/jpulipati/Desktop/python_assignment/text3.xls
 
-#### P.S Notes for Q2:
+#### P.S Notes for Q2: (Assumptions, explanation)
  - 1) The program retrieves the data only if login is successful, else the data wont be retrieved
  - 2) Popularity is based on number of 'likes' for each quote. Top popular 10 quotes are retrieved from the first page and though there are lot of quotes with zero 'likes', least popular 10 quotes are the last 10 quotes from pages 67,68.
  - 3) All the corrupt data in the output file is due to non-english characters present in the quote data
@@ -57,7 +57,7 @@
   - python pandas_ch.py
 - Step 4: After running the command, please follow the output on console or please follow Step-5
 
-#### P.S Notes for Q4:
+#### P.S Notes for Q4: (Assumptions, explanation)
  - 1) Scraped data from http://www.sql-join.com/ website
  - 2) Customers and Orders tables' data is gathered from the website using Beautiful Soup API
  - 3) Both the tables are joined using customer_id key in Pandas dataframes
