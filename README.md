@@ -37,3 +37,4 @@
 #### P.S Notes for Q2:
  - 1) The program retrieves the data only if login is successful, else the data wont be retrieved
  - 2) Popularity is based on number of 'likes' for each quote. Top popular 10 quotes are retrieved from the first page and though there are lot of quotes with zero 'likes', least popular 10 quotes are the last 10 quotes from pages 67,68.
+ - 3) All the corrupt data in the output file is due to non-english characters present in the quote data
