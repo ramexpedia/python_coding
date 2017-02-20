@@ -1,4 +1,4 @@
-# Python coding challenge
+## Python coding challenge
 ### Challenge - Q1
 
 1) Write a script code to be executed from a command line using either python, ruby, PowerShell, or Elixir that extracts returns the text of the last 8 posts made on Expedia Facebook Page, and re-writes such data into a text file using JSON. Be creative on writing the post text and respective date, and justify your decision.
@@ -38,6 +38,12 @@
  - 1) The program retrieves the data only if login is successful, else the data wont be retrieved
  - 2) Popularity is based on number of 'likes' for each quote. Top popular 10 quotes are retrieved from the first page and though there are lot of quotes with zero 'likes', least popular 10 quotes are the last 10 quotes from pages 67,68.
  - 3) All the corrupt data in the output file is due to non-english characters present in the quote data
+
+----------------------------------------------------------
+
+### Challenge - Q3
+3) Optional: Rewrite the code you wrote for question 2 adding further security when receiving or handling password. Explain your approach.
+#### Solution steps for Q3 : Yet to be resolved
 
 ----------------------------------------------------------
 
